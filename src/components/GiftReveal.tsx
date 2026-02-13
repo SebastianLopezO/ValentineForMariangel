@@ -66,10 +66,11 @@ const GiftReveal = () => {
                 >
                     <div className="bg-card/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-border">
                         <p className="text-2xl sm:text-3xl font-display text-primary">
-                            Cada día contigo es un regalo 🎁
+                            Ante mis ojos eres la mujer perfecta 🎁
                         </p>
                         <p className="mt-3 font-elegant italic text-lg text-muted-foreground">
-                            Y mi regalo favorito eres tú, Mariangel
+                            Que todos desean pero muy pocos pueden tener. Me siento afortunado de haberte encontrado,
+                            Mary.
                         </p>
                     </div>
                 </div>

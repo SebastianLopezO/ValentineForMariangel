@@ -91,10 +91,10 @@ const CupidMail = () => {
                             className="inline-block px-10 py-8 rounded-3xl bg-card/60 backdrop-blur-sm border border-border">
                             <p className="text-4xl mb-3">😍</p>
                             <p className="text-2xl font-display text-primary">
-                                ¡Cupido ha entregado tu amor!
+                                ¡El amor ha sido entregado!
                             </p>
                             <p className="text-muted-foreground font-elegant italic mt-2">
-                                Era la única respuesta posible 💖
+                                Desde aquella esquina donde te miraba en silencio, hasta aquí... siempre tú 💖
                             </p>
                         </div>
                     </div>

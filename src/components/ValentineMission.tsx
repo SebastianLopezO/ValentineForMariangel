@@ -56,10 +56,10 @@ const ValentineMission = () => {
                         <div className="inline-block px-8 py-6 rounded-2xl bg-card border border-border">
                             <p className="text-3xl mb-2">🥰</p>
                             <p className="text-xl font-display text-primary">
-                                ¡Sabía que dirías que sí!
+                                ¡Sabía que dirías que sí, mi mamor!
                             </p>
                             <p className="font-elegant italic mt-2 text-muted-foreground">
-                                Misión aceptada, mi amor ♥
+                                Contigo quiero estar la vida entera si es posible ♥
                             </p>
                         </div>
                     </div>

@@ -114,7 +114,7 @@ const HeartMonitor = () => {
                     className="text-sm text-primary/60"
                     style={{fontFamily: "'Courier New', monospace"}}
                 >
-                    ...solo por ti, Mariangel
+                    ...cada latido lleva tu nombre, Mary
                 </p>
             </div>
         </section>

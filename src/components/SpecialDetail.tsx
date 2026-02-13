@@ -41,7 +41,7 @@ const SpecialDetail = () => {
                         Feliz San Valentín 🌹
                     </h2>
                     <p className="font-elegant text-lg sm:text-xl italic leading-relaxed mb-10 text-muted-foreground">
-                        Un detalle especial para ti, porque mereces todo lo bonito del mundo, Mariangel
+                        Eres ese faro que me orienta en mis noches más oscuras, la voz suave que calma mis tormentas
                     </p>
 
                     <button
@@ -61,11 +61,11 @@ const SpecialDetail = () => {
                         <div className="rounded-2xl p-6 sm:p-8 border bg-card border-border">
                             <p className="text-5xl mb-4">💖</p>
                             <p className="font-display text-2xl sm:text-3xl mb-3 text-primary">
-                                Eres mi persona favorita
+                                Mi corazoncito
                             </p>
                             <p className="font-elegant italic text-muted-foreground">
-                                En cada latido de mi corazón está tu nombre. Gracias por ser la luz de mi vida. Te amo
-                                infinitamente ♥
+                                He conocido a muchas personas, pero ninguna se siente como tú. Extraño esa sonrisa, esa
+                                mirada, esos labios que me llevan al cielo. Te amo con todo lo que soy ♥
                             </p>
                         </div>
                     </div>
