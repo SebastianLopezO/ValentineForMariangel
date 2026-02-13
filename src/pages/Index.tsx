@@ -4,7 +4,7 @@ import HeartTree from "@/components/HeartTree";
 import LoveCounter from "@/components/LoveCounter";
 import EnvelopeIntro from "@/components/EnvelopeIntro";
 import MessageCard from "@/components/MessageCard";
-import GifGallery from "@/components/GifGallery";
+
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,12 +90,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* GIFs Section */}
-      <section className="relative z-20 py-16 px-4 bg-secondary/20">
-        <div className="max-w-4xl mx-auto">
-          <GifGallery />
-        </div>
-      </section>
+
+
 
       {/* Final Message */}
       <section className="relative z-20 py-20 px-4 text-center">
