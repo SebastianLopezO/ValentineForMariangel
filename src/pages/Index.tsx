@@ -4,6 +4,11 @@ import HeartTree from "@/components/HeartTree";
 import LoveCounter from "@/components/LoveCounter";
 import EnvelopeIntro from "@/components/EnvelopeIntro";
 import MessageCard from "@/components/MessageCard";
+import GiftReveal from "@/components/GiftReveal";
+import HeartMonitor from "@/components/HeartMonitor";
+import ValentineMission from "@/components/ValentineMission";
+import CupidMail from "@/components/CupidMail";
+import SpecialDetail from "@/components/SpecialDetail";
 
 
 const Index = () => {
@@ -62,33 +67,36 @@ const Index = () => {
                         Razones para amarte 💝
                     </h2>
                     <div className="grid md:grid-cols-2 gap-6">
-                        <MessageCard
-                            title="¿Por qué te amo?"
-                            message="Porque tu sonrisa ilumina mis días más oscuros. Porque tu risa es mi melodía favorita. Porque cada momento contigo es un tesoro que guardo en mi corazón."
-                            delay={0}
-                            variant="default"
-                        />
-                        <MessageCard
-                            title="¿Por qué este San Valentín es especial?"
-                            message="Porque cada San Valentín contigo es mejor que el anterior. Porque celebrar el amor que tenemos es el regalo más hermoso. Porque tú haces que cada día sea San Valentín."
-                            delay={200}
-                            variant="accent"
-                        />
-                        <MessageCard
-                            title="Lo que más adoro de ti"
-                            message="Tu forma de amar, tu ternura infinita, la manera en que me miras y haces sentir que soy la persona más afortunada del mundo."
-                            delay={400}
-                            variant="elegant"
-                        />
-                        <MessageCard
-                            title="Nuestro tiempo juntos"
-                            message="Desde el 17 de diciembre de 2020, mi vida cambió para siempre. Cada segundo a tu lado ha sido la mejor aventura. Gracias por elegirme cada día."
-                            delay={600}
-                            variant="default"
-                        />
+                        <MessageCard title="¿Por qué te amo?"
+                                     message="Porque tu sonrisa ilumina mis días más oscuros. Porque tu risa es mi melodía favorita. Porque cada momento contigo es un tesoro que guardo en mi corazón."
+                                     delay={0} variant="default"/>
+                        <MessageCard title="¿Por qué este San Valentín es especial?"
+                                     message="Porque cada San Valentín contigo es mejor que el anterior. Porque celebrar el amor que tenemos es el regalo más hermoso. Porque tú haces que cada día sea San Valentín."
+                                     delay={200} variant="accent"/>
+                        <MessageCard title="Lo que más adoro de ti"
+                                     message="Tu forma de amar, tu ternura infinita, la manera en que me miras y haces sentir que soy la persona más afortunada del mundo."
+                                     delay={400} variant="elegant"/>
+                        <MessageCard title="Nuestro tiempo juntos"
+                                     message="Desde el 17 de diciembre de 2020, mi vida cambió para siempre. Cada segundo a tu lado ha sido la mejor aventura. Gracias por elegirme cada día."
+                                     delay={600} variant="default"/>
                     </div>
                 </div>
             </section>
+
+            {/* 1. Gift Reveal */}
+            <GiftReveal/>
+
+            {/* 2. Heart Monitor */}
+            <HeartMonitor/>
+
+            {/* 3. Valentine Mission */}
+            <ValentineMission/>
+
+            {/* 4. Cupid Mail */}
+            <CupidMail/>
+
+            {/* 5. Special Detail */}
+            <SpecialDetail/>
 
 
             {/* Final Message */}
